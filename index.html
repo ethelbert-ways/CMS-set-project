@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0f1a2e">
+<title>CMS 2K26 Invictus</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Figtree:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+<script src="config.js"></script>
+<script src="common.js"></script>
+<script>Auth.skipIfIn();</script>
+</head>
+<body class="gate">
+
+<div class="slides" id="slides" aria-hidden="true">
+  <div class="slide on" style="background-image:url('slide-1.jpg')"></div>
+  <div class="slide" data-src="slide-2.jpg"></div>
+  <div class="slide" data-src="slide-3.jpg"></div>
+  <div class="slide" data-src="slide-4.jpg"></div>
+  <div class="slide" data-src="slide-5.jpg"></div>
+  <div class="slide" data-src="slide-6.jpg"></div>
+</div>
+<div class="veil" aria-hidden="true"></div>
+
+<main class="gate-main">
+  <div class="gate-card">
+    <form class="pw-form" id="pwForm" autocomplete="off" novalidate>
+      <label class="sr-only" for="pw">Password</label>
+      <input class="pw-input" id="pw" name="pw" type="password" placeholder="password"
+             autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false"
+             enterkeyhint="go" aria-describedby="pwHint pwMsg" autofocus>
+      <button class="pw-go" type="submit" aria-label="Enter the site">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </button>
+    </form>
+    <p class="pw-hint" id="pwHint">The password is the set name</p>
+    <p class="pw-msg" id="pwMsg" role="alert" aria-live="assertive"></p>
+  </div>
+</main>
+
+<noscript><p style="position:relative;z-index:3;color:#fff;text-align:center;padding:16px">This site needs JavaScript to be turned on.</p></noscript>
+
+<script>
+(function () {
+  var form = document.getElementById("pwForm");
+  var input = document.getElementById("pw");
+  var msg = document.getElementById("pwMsg");
+
+  if (Auth.takeNote()) msg.textContent = "Your connection was interrupted. Enter the password again.";
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    if (Auth.check(input.value)) {
+      Auth.login();
+      /* replace(), not assign(): the index page does not stay in the Back history. */
+      location.replace("home.html");
+      return;
+    }
+    msg.textContent = input.value.trim() ? "Wrong password. Check the hint below and use small letters." : "Type the password first.";
+    form.classList.remove("shake"); void form.offsetWidth; form.classList.add("shake");
+    input.select();
+  });
+  input.addEventListener("input", function () { msg.textContent = ""; });
+
+  /* ---- background slideshow: slow cross-fade, no buttons ---- */
+  var slides = [].slice.call(document.querySelectorAll(".slide"));
+  var i = 0;
+  function load(s) { if (s.dataset.src) { s.style.backgroundImage = "url('" + s.dataset.src + "')"; s.removeAttribute("data-src"); } }
+  function next() {
+    var n = (i + 1) % slides.length;
+    load(slides[n]);
+    slides[n].classList.add("on");
+    var old = slides[i];
+    setTimeout(function () { old.classList.remove("on"); }, 2300);
+    i = n;
+  }
+  if (slides.length > 1) {
+    load(slides[1]);
+    setInterval(function () { if (!document.hidden) next(); }, 6000);
+  }
+})();
+</script>
+</body>
+</html>

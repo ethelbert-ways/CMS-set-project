@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#ef6f48">
+<title>The Homepage · CMS 2K26 Invictus</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Figtree:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+<script src="config.js"></script>
+<script src="common.js"></script>
+<script>Auth.require();</script>
+</head>
+<body class="home">
+
+<header class="topbar">
+  <nav class="tabs" aria-label="Main">
+    <a class="tab" href="home.html" aria-current="page"><span class="full">The Homepage</span><span class="short">Home</span></a>
+    <a class="tab" href="students.html"><span class="full">All Students Profiles</span><span class="short">Students</span></a>
+    <a class="tab" href="awards.html"><span class="full">Student Set Awards</span><span class="short">Awards</span></a>
+  </nav>
+</header>
+
+<main class="cloud" id="cloud" aria-label="Student nicknames. Select a nickname to see that student's photo card.">
+  <div class="cloud-logo-glow" id="glow" aria-hidden="true"></div>
+  <img class="cloud-logo" id="logo" src="images/logo.png" alt="Set 2K26 logo" width="640" height="640" decoding="async">
+</main>
+<noscript><p class="cloud-fallback">This page needs JavaScript. <a href="students.html">Open all students</a>.</p></noscript>
+
+<footer class="site-foot">
+  <p class="sf-copy">&copy; 2026 C.M.S. Grammar School, Lagos&nbsp;&middot; Set 2K26 &ldquo;Invictus&rdquo;. All rights reserved.</p>
+  <p class="sf-cta">Like what you see? Take a look through the creator&rsquo;s portfolio: <a href="https://ethel-devs-portfolio-new.vercel.app/" target="_blank" rel="noopener noreferrer">Ethel-devs<span class="sr-only"> (opens in a new tab)</span></a></p>
+</footer>
+
+<script src="data.js"></script>
+<script src="home.js"></script>
+</body>
+</html>
