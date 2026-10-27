@@ -2839,58 +2839,58 @@ CMS.students = [
 /* 2. AWARDS ---------------------------------------------------------------- */
 CMS.awards = [
   { title: "Most Handsome", winners: [106] },  // Oboh Justin
-  { title: "Flyest", winners: [081] },  // Obioma Nonso
+  { title: "Flyest", winners: [81] },  // Obioma Nonso
   { title: "Most Intelligent", winners: [112, 17] },  // Oboduku Enoch, Ozogula Elijah, Gbenle Moyinoluwa
   { title: "Most Popular", winners: [121, 003] },  // Akraka O. Nathaniel
   { title: "Most Social", winners: [81] },  // Uzozie Daniel
-  { title: "Most Respected", winners: [026] },  // Adesanya Oluwakoinsola
-  { title: "Ladies men", winners: [079, 076] },  // Adeola Adedoyin, Oboh Justin
-  { title: "Most Loved", winners: [062, 063] },  // Adeola Adedoyin
-  { title: "Mr. Non-Chalant", winners: [031] },  // Jack Dave
-  { title: "Most Influential", winners: [081] },  // Nwachukwu Chibuike, Okeke Chinedu
-  { title: "Rookie of the year", winners: [089] },  // Agboola Joseph
+  { title: "Most Respected", winners: [26] },  // Adesanya Oluwakoinsola
+  { title: "Ladies men", winners: [79, 76] },  // Adeola Adedoyin, Oboh Justin
+  { title: "Most Loved", winners: [62, 63] },  // Adeola Adedoyin
+  { title: "Mr. Non-Chalant", winners: [31] },  // Jack Dave
+  { title: "Most Influential", winners: [81] },  // Nwachukwu Chibuike, Okeke Chinedu
+  { title: "Rookie of the year", winners: [89] },  // Agboola Joseph
   { title: "Best content creator", winners: [123] },  // Akraka O. Nathaniel
   { title: "Ebonyi", winners: [124] },  // Ayorinde Olajide
-  { title: "Neatest", winners: [026] },  // Elohor-George, Chukwuemeka Samuel, Ekeh Daniel
-  { title: "Information Deity", winners: [006] },  // Idris Omojisinuola
-  { title: "Mount Everest", winners: [008] },  // Omoregie Osaretin 
+  { title: "Neatest", winners: [26] },  // Elohor-George, Chukwuemeka Samuel, Ekeh Daniel
+  { title: "Information Deity", winners: [6] },  // Idris Omojisinuola
+  { title: "Mount Everest", winners: [8] },  // Omoregie Osaretin 
   { title: "Le Petit", winners: [119] },  // Ibekwe Maxmillian, Edagbami Oreofe
-  { title: "Man of steel", winners: [052] },  // Padoye Ayobami
-  { title: "Ever Smiling", winners: [037] },  // Kenneth Chiemelie
-  { title: "Funniest", winners: [124, 020] },  // Akraka O. Nathaniel
-  { title: "Most Dramatic", winners: [073] },  // Adebayo Oluwafolakunmi
+  { title: "Man of steel", winners: [52] },  // Padoye Ayobami
+  { title: "Ever Smiling", winners: [37] },  // Kenneth Chiemelie
+  { title: "Funniest", winners: [124, 20] },  // Akraka O. Nathaniel
+  { title: "Most Dramatic", winners: [73] },  // Adebayo Oluwafolakunmi
   { title: "Most Skillful", winners: [104] },  // Anthony-Atiye David
-  { title: "Ballond'or winnner", winners: [081] },  // Oboduku Enoch
-  { title: "Basketball MVPs", winners: [044, 093] },  // Ogbonnaya Micheal, Ekeh Daniel, Okeke Chinedu
-  { title: "God of Endurance", winners: [079, 053] },  // Abattan Dominion
-  { title: "Artist of the set", winners: [049, 036] },  // Oboduku Enoch
-  { title: "Artiste of the set", winners: [051] },  // Odufowokan Adekunle
-  { title: "Kings of stabbing", winners: [116, 054] },  // Oludotun Rerelolwuwa
-  { title: "Early Birds", winners: [013, 064] },  // Adesanya Oluwakoinsola
-  { title: "Best friends forever", winners: [081, 076] },  // Ekeh Daniel
-  { title: "Book Worm", winners: [035] },  // Akraka O. Nathaniel, Ajibuwa Akintomiwa
-  { title: "All Rounder", winners: [053] },  // Osipitan Babafemi
-  { title: "Most Spiritual", winners: [039] },  // Agu Dominic
-  { title: "Triple Threat", winners: [116, 084, 054] },  // Ndekudu Noble
-  { title: "Fantastic four", winners: [070, 031, 048, 033] },  // Padoye Ayobami, Sokoya Temitoluwa, Abattan Dominion, Oboduku Enoch
-  { title: "Plus size", winners: [056] },  // Oko-Oboh Ese Isaac
-  { title: "Headward", winners: [060] },  // Omo we plenty!!!
-  { title: "Prim and Proper", winners: [061] },  // Onamuti Damilola
+  { title: "Ballond'or winnner", winners: [81] },  // Oboduku Enoch
+  { title: "Basketball MVPs", winners: [44, 93] },  // Ogbonnaya Micheal, Ekeh Daniel, Okeke Chinedu
+  { title: "God of Endurance", winners: [79, 53] },  // Abattan Dominion
+  { title: "Artist of the set", winners: [49, 36] },  // Oboduku Enoch
+  { title: "Artiste of the set", winners: [51] },  // Odufowokan Adekunle
+  { title: "Kings of stabbing", winners: [116, 54] },  // Oludotun Rerelolwuwa
+  { title: "Early Birds", winners: [13, 64] },  // Adesanya Oluwakoinsola
+  { title: "Best friends forever", winners: [81, 76] },  // Ekeh Daniel
+  { title: "Book Worm", winners: [35] },  // Akraka O. Nathaniel, Ajibuwa Akintomiwa
+  { title: "All Rounder", winners: [53] },  // Osipitan Babafemi
+  { title: "Most Spiritual", winners: [39] },  // Agu Dominic
+  { title: "Triple Threat", winners: [116, 84, 54] },  // Ndekudu Noble
+  { title: "Fantastic four", winners: [70, 31, 48, 33] },  // Padoye Ayobami, Sokoya Temitoluwa, Abattan Dominion, Oboduku Enoch
+  { title: "Plus size", winners: [56] },  // Oko-Oboh Ese Isaac
+  { title: "Headward", winners: [60] },  // Omo we plenty!!!
+  { title: "Prim and Proper", winners: [61] },  // Onamuti Damilola
   { title: "Lord of excuses", winners: [121] },  // Laniyan Olanshile, Obioma Alexander, Owie Gregory, Folarin Boluwatife
-  { title: "Sleepy heads", winners: [035, 115] },  // Ajibuwa Akintomiwa
-  { title: "Multi-Purpose Sports Man", winners: [108, 066] },  // Adebayo Oluwafolakunmi
-  { title: "Garri Addicts", winners: [060] },  // Dedewo Emmanuel
-  { title: "The Nose", winners: [037] },  // Chinwuba
+  { title: "Sleepy heads", winners: [35, 115] },  // Ajibuwa Akintomiwa
+  { title: "Multi-Purpose Sports Man", winners: [108, 66] },  // Adebayo Oluwafolakunmi
+  { title: "Garri Addicts", winners: [60] },  // Dedewo Emmanuel
+  { title: "The Nose", winners: [37] },  // Chinwuba
   { title: "Ginger Squad", winners: ["OMO we Plenty!!!"] },  // Ogunniyi Praise
-  { title: "Most Talented", winners: [066] },  // Sokoya Temitoluwa
-  { title: "Most Creative", winners: [099] },  // Sokoya Temitoluwa
-  { title: "Economist", winners: [069] },  // Idris Omojisinuola
-  { title: "Night Crawlers", winners: [026, 093] },  // Ajibuwa Akintomiwa
-  { title: "Most Daring", winners: [027] },  // Idris Omojisinuola
-  { title: "Lord of Outings", winners: [066] },  // Oboh Justin
-  { title: "Zit Lord", winners: [041] },  // Gbenle Moyinoluwa
-  { title: "Best Vocals", winners: [058] },  // Akraka O. Nathaniel
-  { title: "Most Lousy", winners: [009, 098] },  // Bodunrin
-  { title: "Father Abraham", winners: [038] },  // Ajibuwa Akintomiwa
-  { title: "Mimickers", winners: [088, 124] },  // Iwuchukwu
+  { title: "Most Talented", winners: [66] },  // Sokoya Temitoluwa
+  { title: "Most Creative", winners: [99] },  // Sokoya Temitoluwa
+  { title: "Economist", winners: [69] },  // Idris Omojisinuola
+  { title: "Night Crawlers", winners: [26, 93] },  // Ajibuwa Akintomiwa
+  { title: "Most Daring", winners: [27] },  // Idris Omojisinuola
+  { title: "Lord of Outings", winners: [66] },  // Oboh Justin
+  { title: "Zit Lord", winners: [41] },  // Gbenle Moyinoluwa
+  { title: "Best Vocals", winners: [58] },  // Akraka O. Nathaniel
+  { title: "Most Lousy", winners: [9, 98] },  // Bodunrin
+  { title: "Father Abraham", winners: [38] },  // Ajibuwa Akintomiwa
+  { title: "Mimickers", winners: [88, 124] },  // Iwuchukwu
 ];
