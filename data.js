@@ -2840,9 +2840,9 @@ CMS.students = [
 CMS.awards = [
   { title: "Most Handsome", winners: [106] },  // Oboh Justin
   { title: "Flyest", winners: [081] },  // Obioma Nonso
-  { title: "Most Intelligent", winners: [112, 017] },  // Oboduku Enoch, Ozogula Elijah, Gbenle Moyinoluwa
+  { title: "Most Intelligent", winners: [112, 17] },  // Oboduku Enoch, Ozogula Elijah, Gbenle Moyinoluwa
   { title: "Most Popular", winners: [121, 003] },  // Akraka O. Nathaniel
-  { title: "Most Social", winners: [081] },  // Uzozie Daniel
+  { title: "Most Social", winners: [81] },  // Uzozie Daniel
   { title: "Most Respected", winners: [026] },  // Adesanya Oluwakoinsola
   { title: "Ladies men", winners: [079, 076] },  // Adeola Adedoyin, Oboh Justin
   { title: "Most Loved", winners: [062, 063] },  // Adeola Adedoyin
